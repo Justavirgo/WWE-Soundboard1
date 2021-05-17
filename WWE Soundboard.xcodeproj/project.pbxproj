@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFFA6BD4265326F700A5B08C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFA6BD3265326F700A5B08C /* AppDelegate.swift */; };
+		CFFA6BD6265326F700A5B08C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFA6BD5265326F700A5B08C /* SceneDelegate.swift */; };
+		CFFA6BD8265326F700A5B08C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFA6BD7265326F700A5B08C /* ViewController.swift */; };
+		CFFA6BDB265326F700A5B08C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFFA6BD9265326F700A5B08C /* Main.storyboard */; };
+		CFFA6BDD265326F800A5B08C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFFA6BDC265326F800A5B08C /* Assets.xcassets */; };
+		CFFA6BE0265326F800A5B08C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFFA6BDE265326F800A5B08C /* LaunchScreen.storyboard */; };
+		CFFA6BEB265326F800A5B08C /* WWE_SoundboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFA6BEA265326F800A5B08C /* WWE_SoundboardTests.swift */; };
+		CFFA6BF6265326F800A5B08C /* WWE_SoundboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFA6BF5265326F800A5B08C /* WWE_SoundboardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFFA6BE7265326F800A5B08C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFFA6BC8265326F700A5B08C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFFA6BCF265326F700A5B08C;
+			remoteInfo = "WWE Soundboard";
+		};
+		CFFA6BF2265326F800A5B08C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFFA6BC8265326F700A5B08C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFFA6BCF265326F700A5B08C;
+			remoteInfo = "WWE Soundboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFFA6BD0265326F700A5B08C /* WWE Soundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WWE Soundboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFA6BD3265326F700A5B08C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFFA6BD5265326F700A5B08C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CFFA6BD7265326F700A5B08C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFFA6BDA265326F700A5B08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFFA6BDC265326F800A5B08C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFFA6BDF265326F800A5B08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFFA6BE1265326F800A5B08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFFA6BE6265326F800A5B08C /* WWE SoundboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WWE SoundboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFA6BEA265326F800A5B08C /* WWE_SoundboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWE_SoundboardTests.swift; sourceTree = "<group>"; };
+		CFFA6BEC265326F800A5B08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFFA6BF1265326F800A5B08C /* WWE SoundboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WWE SoundboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFA6BF5265326F800A5B08C /* WWE_SoundboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWE_SoundboardUITests.swift; sourceTree = "<group>"; };
+		CFFA6BF7265326F800A5B08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFFA6BCD265326F700A5B08C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFA6BE3265326F800A5B08C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFA6BEE265326F800A5B08C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFFA6BC7265326F700A5B08C = {
+			isa = PBXGroup;
+			children = (
+				CFFA6BD2265326F700A5B08C /* WWE Soundboard */,
+				CFFA6BE9265326F800A5B08C /* WWE SoundboardTests */,
+				CFFA6BF4265326F800A5B08C /* WWE SoundboardUITests */,
+				CFFA6BD1265326F700A5B08C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFFA6BD1265326F700A5B08C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFFA6BD0265326F700A5B08C /* WWE Soundboard.app */,
+				CFFA6BE6265326F800A5B08C /* WWE SoundboardTests.xctest */,
+				CFFA6BF1265326F800A5B08C /* WWE SoundboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFFA6BD2265326F700A5B08C /* WWE Soundboard */ = {
+			isa = PBXGroup;
+			children = (
+				CFFA6BD3265326F700A5B08C /* AppDelegate.swift */,
+				CFFA6BD5265326F700A5B08C /* SceneDelegate.swift */,
+				CFFA6BD7265326F700A5B08C /* ViewController.swift */,
+				CFFA6BD9265326F700A5B08C /* Main.storyboard */,
+				CFFA6BDC265326F800A5B08C /* Assets.xcassets */,
+				CFFA6BDE265326F800A5B08C /* LaunchScreen.storyboard */,
+				CFFA6BE1265326F800A5B08C /* Info.plist */,
+			);
+			path = "WWE Soundboard";
+			sourceTree = "<group>";
+		};
+		CFFA6BE9265326F800A5B08C /* WWE SoundboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFFA6BEA265326F800A5B08C /* WWE_SoundboardTests.swift */,
+				CFFA6BEC265326F800A5B08C /* Info.plist */,
+			);
+			path = "WWE SoundboardTests";
+			sourceTree = "<group>";
+		};
+		CFFA6BF4265326F800A5B08C /* WWE SoundboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFFA6BF5265326F800A5B08C /* WWE_SoundboardUITests.swift */,
+				CFFA6BF7265326F800A5B08C /* Info.plist */,
+			);
+			path = "WWE SoundboardUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFFA6BCF265326F700A5B08C /* WWE Soundboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFFA6BFA265326F800A5B08C /* Build configuration list for PBXNativeTarget "WWE Soundboard" */;
+			buildPhases = (
+				CFFA6BCC265326F700A5B08C /* Sources */,
+				CFFA6BCD265326F700A5B08C /* Frameworks */,
+				CFFA6BCE265326F700A5B08C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WWE Soundboard";
+			productName = "WWE Soundboard";
+			productReference = CFFA6BD0265326F700A5B08C /* WWE Soundboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFFA6BE5265326F800A5B08C /* WWE SoundboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFFA6BFD265326F800A5B08C /* Build configuration list for PBXNativeTarget "WWE SoundboardTests" */;
+			buildPhases = (
+				CFFA6BE2265326F800A5B08C /* Sources */,
+				CFFA6BE3265326F800A5B08C /* Frameworks */,
+				CFFA6BE4265326F800A5B08C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFFA6BE8265326F800A5B08C /* PBXTargetDependency */,
+			);
+			name = "WWE SoundboardTests";
+			productName = "WWE SoundboardTests";
+			productReference = CFFA6BE6265326F800A5B08C /* WWE SoundboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFFA6BF0265326F800A5B08C /* WWE SoundboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFFA6C00265326F800A5B08C /* Build configuration list for PBXNativeTarget "WWE SoundboardUITests" */;
+			buildPhases = (
+				CFFA6BED265326F800A5B08C /* Sources */,
+				CFFA6BEE265326F800A5B08C /* Frameworks */,
+				CFFA6BEF265326F800A5B08C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFFA6BF3265326F800A5B08C /* PBXTargetDependency */,
+			);
+			name = "WWE SoundboardUITests";
+			productName = "WWE SoundboardUITests";
+			productReference = CFFA6BF1265326F800A5B08C /* WWE SoundboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFFA6BC8265326F700A5B08C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					CFFA6BCF265326F700A5B08C = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					CFFA6BE5265326F800A5B08C = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = CFFA6BCF265326F700A5B08C;
+					};
+					CFFA6BF0265326F800A5B08C = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = CFFA6BCF265326F700A5B08C;
+					};
+				};
+			};
+			buildConfigurationList = CFFA6BCB265326F700A5B08C /* Build configuration list for PBXProject "WWE Soundboard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFFA6BC7265326F700A5B08C;
+			productRefGroup = CFFA6BD1265326F700A5B08C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFFA6BCF265326F700A5B08C /* WWE Soundboard */,
+				CFFA6BE5265326F800A5B08C /* WWE SoundboardTests */,
+				CFFA6BF0265326F800A5B08C /* WWE SoundboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFFA6BCE265326F700A5B08C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFA6BE0265326F800A5B08C /* LaunchScreen.storyboard in Resources */,
+				CFFA6BDD265326F800A5B08C /* Assets.xcassets in Resources */,
+				CFFA6BDB265326F700A5B08C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFA6BE4265326F800A5B08C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFA6BEF265326F800A5B08C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFFA6BCC265326F700A5B08C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFA6BD8265326F700A5B08C /* ViewController.swift in Sources */,
+				CFFA6BD4265326F700A5B08C /* AppDelegate.swift in Sources */,
+				CFFA6BD6265326F700A5B08C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFA6BE2265326F800A5B08C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFA6BEB265326F800A5B08C /* WWE_SoundboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFA6BED265326F800A5B08C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFA6BF6265326F800A5B08C /* WWE_SoundboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFFA6BE8265326F800A5B08C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFFA6BCF265326F700A5B08C /* WWE Soundboard */;
+			targetProxy = CFFA6BE7265326F800A5B08C /* PBXContainerItemProxy */;
+		};
+		CFFA6BF3265326F800A5B08C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFFA6BCF265326F700A5B08C /* WWE Soundboard */;
+			targetProxy = CFFA6BF2265326F800A5B08C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFFA6BD9265326F700A5B08C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFFA6BDA265326F700A5B08C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFFA6BDE265326F800A5B08C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFFA6BDF265326F800A5B08C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFFA6BF8265326F800A5B08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFFA6BF9265326F800A5B08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFFA6BFB265326F800A5B08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F45TB4NDMF;
+				INFOPLIST_FILE = "WWE Soundboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.justinelijah.WWE-Soundboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFFA6BFC265326F800A5B08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F45TB4NDMF;
+				INFOPLIST_FILE = "WWE Soundboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.justinelijah.WWE-Soundboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFFA6BFE265326F800A5B08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F45TB4NDMF;
+				INFOPLIST_FILE = "WWE SoundboardTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.justinelijah.WWE-SoundboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WWE Soundboard.app/WWE Soundboard";
+			};
+			name = Debug;
+		};
+		CFFA6BFF265326F800A5B08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F45TB4NDMF;
+				INFOPLIST_FILE = "WWE SoundboardTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.justinelijah.WWE-SoundboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WWE Soundboard.app/WWE Soundboard";
+			};
+			name = Release;
+		};
+		CFFA6C01265326F800A5B08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F45TB4NDMF;
+				INFOPLIST_FILE = "WWE SoundboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.justinelijah.WWE-SoundboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WWE Soundboard";
+			};
+			name = Debug;
+		};
+		CFFA6C02265326F800A5B08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F45TB4NDMF;
+				INFOPLIST_FILE = "WWE SoundboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.justinelijah.WWE-SoundboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WWE Soundboard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFFA6BCB265326F700A5B08C /* Build configuration list for PBXProject "WWE Soundboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFA6BF8265326F800A5B08C /* Debug */,
+				CFFA6BF9265326F800A5B08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFFA6BFA265326F800A5B08C /* Build configuration list for PBXNativeTarget "WWE Soundboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFA6BFB265326F800A5B08C /* Debug */,
+				CFFA6BFC265326F800A5B08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFFA6BFD265326F800A5B08C /* Build configuration list for PBXNativeTarget "WWE SoundboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFA6BFE265326F800A5B08C /* Debug */,
+				CFFA6BFF265326F800A5B08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFFA6C00265326F800A5B08C /* Build configuration list for PBXNativeTarget "WWE SoundboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFA6C01265326F800A5B08C /* Debug */,
+				CFFA6C02265326F800A5B08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFFA6BC8265326F700A5B08C /* Project object */;
+}
